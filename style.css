@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff5f7;
+  color: #333;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.sidebar {
+  background: #f5d1d8;
+  width: 35%;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.photo-section {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo-section img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 6px solid #fff;
+}
+
+.sidebar-section {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.sidebar-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #d14567;
+  background-color: #f9c3ce;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.sidebar-section p,
+.sidebar-section li {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #333;
+}
+
+.sidebar-section ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.main-content {
+  padding: 40px;
+  width: 65%;
+}
+
+.main-content h1 {
+  font-size: 36px;
+  color: #f66;
+  margin: 0;
+}
+
+.main-content h1 span {
+  color: #e14474;
+}
+
+.main-content h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.section h3 {
+  font-size: 22px;
+  background: #f5d1d8;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.edu-item,
+.job-item {
+  margin-top: 15px;
+}
+
+.edu-item span {
+  float: right;
+  font-weight: normal;
+  color: #999;
+}
